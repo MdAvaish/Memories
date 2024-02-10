@@ -23,3 +23,4 @@ mongoose.connect(process.env.MONGODB_URI || process.env.CONNECTION_URL, { useNew
 .catch((error) => console.log(error));
 
 mongoose.set('useFindAndModify', false);
+console.log("working");
